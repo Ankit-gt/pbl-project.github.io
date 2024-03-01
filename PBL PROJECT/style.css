@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: bisque;
+}
+nav {
+    background-color: rgb(26, 15, 15);
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0 23px;
+    font-weight: 100;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: white;
+
+}
+
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin-left :  250px ;
+    margin-right: 100px;
+    
+}
+
+h1, h2, h3 {
+    margin: 23px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+margin-top: 18.5px;
+    font-weight: 600;
+
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  cursor: pointer;
+  margin-left: 70px;
+}
+.btn:hover{
+    
+  cursor: pointer;
+  background: #283618;
+  color: white;
+}
+
+
+.btnsm{ 
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
+
+input{
+    border-radius: 10px;
+}
+
+.form{
+    margin-left: 420px;
+}
+.table{
+    margin-left: 380px;
+}
